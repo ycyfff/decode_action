@@ -5,7 +5,7 @@
         jd_beanSign_pinFilter // 账号pin过滤，多个用@进行分割
 		jd_beanSign_prizeNotify // 是否单独推送账号通知（true/false），默认不推送
 
-cron:15 0,16 * * *
+cron:15 0,15 * * *
 
 */
 
