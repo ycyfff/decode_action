@@ -1,3 +1,6 @@
+//Wed Jun 04 2025 14:28:33 GMT+0000 (Coordinated Universal Time)
+//Base:https://github.com/echo094/decode-js
+//Modify:https://github.com/smallfawn/decode_action
 //Wed Jun 04 2025 14:26:32 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
@@ -255,7 +258,7 @@ export class Template extends Common {
       }
       const _0x555e6e = this.#decryptToken(_0x3b886);
       if (_0x555e6e !== this[_0x52b8ff(654, "RhRp")](_0x52b8ff(1648, "!Qgx") + _0x4cf6b5 + _0x52b8ff(860, "$yy6") + _0xee2306)) {
-        console[_0x52b8ff(1439, "1q[P")]("[Token] Token未通过");
+        console[_0x52b8ff(1439, "1q[P")]("[Token] Token\u672A\u901A\u8FC7");
         return false;
       }
       return true;
@@ -424,7 +427,7 @@ export class Template extends Common {
     if (this[_0x5e5f42(1282, "*Gc&")].endTime) {
       let _0x2605e2 = _0x1d9b83[_0x5e5f42(1685, "$yy6")](isNaN, this[_0x5e5f42(1866, "77F6")][_0x5e5f42(2002, "V!JN")]) ? _0x1d9b83.LLGqL(new Date(this[_0x5e5f42(1771, "HL#@")][_0x5e5f42(619, "!Qgx")]).getTime(), 1000) : _0x1d9b83.QlUOs(parseInt, this.profile.endTime);
       if (_0x1d9b83.oXzAL(new Date().getTime(), 1000) > _0x2605e2) {
-        console.log("[Info] 活动已经结束");
+        console.log("[Info] \u6D3B\u52A8\u5DF2\u7ECF\u7ED3\u675F");
         return;
       }
     }
@@ -718,7 +721,7 @@ export class Template extends Common {
       console.log(_0x5e5f42(1822, "RhRp"));
     } else {
       if (this[_0x5e5f42(821, "WCHt")].verify && _0x1d9b83[_0x5e5f42(1788, "b!#L")](this[_0x5e5f42(1718, "1y*w")][_0x5e5f42(1116, "1Nka")], 0) && this[_0x5e5f42(593, "D7yz")].verify != 2) {
-        console.log("[ShareCode] 没有分享数据");
+        console.log("[ShareCode] \u6CA1\u6709\u5206\u4EAB\u6570\u636E");
       } else {
         this[_0x5e5f42(2054, "!^IA")][_0x5e5f42(831, "c0FF")](_0x5e5f42(1804, "D7yz")) && (await this[_0x5e5f42(1378, "oT9]")](this[_0x5e5f42(1309, "R#qp")].timer));
         console.log(_0x5e5f42(2150, "a55%"));
@@ -753,7 +756,7 @@ export class Template extends Common {
             }
             this._shareCode = [];
           }
-          _0x1d9b83.Fqdlv(_0x944f74, 1) && console[_0x5e5f42(1999, "3Z$7")](_0x5e5f42(1413, "#42#") + (this[_0x5e5f42(2013, "u4Vf")] + 1) + "轮任务");
+          _0x1d9b83.Fqdlv(_0x944f74, 1) && console[_0x5e5f42(1999, "3Z$7")](_0x5e5f42(1413, "#42#") + (this[_0x5e5f42(2013, "u4Vf")] + 1) + "\u8F6E\u4EFB\u52A1");
           if (!this[_0x5e5f42(1047, "oT9]")][_0x5e5f42(1799, "$A[&")]) {
             if (_0x375ae2 > 1 && !_0x1697ae && _0x1d9b83[_0x5e5f42(1896, "t*Or")](this.turnCount, 0)) {
               let _0x5137e4 = [];
@@ -837,15 +840,15 @@ export class Template extends Common {
                       for (let _0x246914 of _0x554f8f) {
                         _0x5ee632 += parseFloat(this.match([/(\d+\.\d+)/, /(\d+)/], _0x246914) || 0);
                       }
-                      _0x5ee632 && _0x54dbba[_0x5e5f42(1005, "u4Vf")]("红包: " + _0x1d9b83[_0x5e5f42(1976, "1q[P")](parseFloat, _0x5ee632)[_0x5e5f42(1276, "!^IA")](2));
+                      _0x5ee632 && _0x54dbba[_0x5e5f42(1005, "u4Vf")]("\u7EA2\u5305: " + _0x1d9b83[_0x5e5f42(1976, "1q[P")](parseFloat, _0x5ee632)[_0x5e5f42(1276, "!^IA")](2));
                     } else {
                       if (_0x17cef1 == _0x1d9b83[_0x5e5f42(2165, "#YUf")]) {
                         for (let _0x495f33 of _0x554f8f) {
                           _0x5ee632 += _0x1d9b83[_0x5e5f42(2084, "R#qp")](parseFloat, this[_0x5e5f42(1438, "QNJ@")]([/(\d+\.\d+)/, /(\d+)/], _0x495f33) || 0);
                         }
-                        _0x5ee632 && _0x54dbba.push("购物卡: " + parseFloat(_0x5ee632)[_0x5e5f42(502, "zWcY")](2));
+                        _0x5ee632 && _0x54dbba.push("\u8D2D\u7269\u5361: " + parseFloat(_0x5ee632)[_0x5e5f42(502, "zWcY")](2));
                       } else {
-                        _0x17cef1 == _0x1d9b83[_0x5e5f42(1777, "Z^Uz")] ? _0x554f8f.length && _0x54dbba.push(_0x5e5f42(669, "oT9]") + _0x554f8f[_0x5e5f42(1039, "1Nka")](_0x1d9b83.vDfEq)) : _0x554f8f[_0x5e5f42(1145, "rGuV")] && _0x54dbba[_0x5e5f42(2016, "[KiJ")]("奖品: " + _0x554f8f[_0x5e5f42(1154, "#42#")](" , "));
+                        _0x17cef1 == _0x1d9b83[_0x5e5f42(1777, "Z^Uz")] ? _0x554f8f.length && _0x54dbba.push(_0x5e5f42(669, "oT9]") + _0x554f8f[_0x5e5f42(1039, "1Nka")](_0x1d9b83.vDfEq)) : _0x554f8f[_0x5e5f42(1145, "rGuV")] && _0x54dbba[_0x5e5f42(2016, "[KiJ")]("\u5956\u54C1: " + _0x554f8f[_0x5e5f42(1154, "#42#")](" , "));
                       }
                     }
                   }
@@ -859,7 +862,7 @@ export class Template extends Common {
               if (_0x37c9da[_0x5e5f42(1666, "v4(B")]) {
                 _0x146c1a[_0x54e3af] = _0x5178b4.cloneDeep(_0x54dbba);
                 let _0x3ea072 = _0x1d9b83[_0x5e5f42(827, "1Nka")](_0x37c9da.notice, _0x5e5f42(810, "[KiJ")) ? _0x37c9da[_0x5e5f42(1844, "WCHt")] : _0x54e3af;
-                _0x146c1a[_0x54e3af][_0x5e5f42(1082, "t*Or")](this[_0x5e5f42(2031, "t*Or")](_0x1e1728) + " 账号: " + _0x3ea072);
+                _0x146c1a[_0x54e3af][_0x5e5f42(1082, "t*Or")](this[_0x5e5f42(2031, "t*Or")](_0x1e1728) + " \u8D26\u53F7: " + _0x3ea072);
               }
               let _0x5db1f9 = this[_0x5e5f42(2158, "#42#")](_0x1e1728) + _0x5e5f42(780, "*kgL") + (_0x37c9da[_0x5e5f42(1177, "$A[&")] + 1) + ": " + (_0x37c9da.name || _0x54e3af);
               this[_0x5e5f42(650, "5&TU")][_0x5e5f42(768, "UTbv")] && (_0x37c9da[_0x5e5f42(571, "[KiJ")] || _0x37c9da.phone) && (_0x5db1f9 = _0x5db1f9 + "  " + (_0x37c9da.mobile || _0x37c9da[_0x5e5f42(712, "!Qgx")])[_0x5e5f42(2081, "*Gc&")](/(\d{3})\d{4}(\d{4})/, _0x1d9b83[_0x5e5f42(1747, "zWcY")]));
@@ -916,7 +919,7 @@ export class Template extends Common {
     }
     await this[_0x5e5f42(2019, "1y*w")](500);
     _0x5caf3b.gracefulShutdown();
-    console.log("================================= 运行结束,耗时: " + parseInt(new Date()[_0x5e5f42(536, "$A[&")]() - this[_0x5e5f42(608, "oT9]")]) + "ms =================================");
+    console.log("================================= \u8FD0\u884C\u7ED3\u675F,\u8017\u65F6: " + parseInt(new Date()[_0x5e5f42(536, "$A[&")]() - this[_0x5e5f42(608, "oT9]")]) + "ms =================================");
     throw "End";
   }
   [_0x44ca4b(1861, "WCHt")]() {
@@ -1025,7 +1028,7 @@ export class Template extends Common {
         group: this[_0x208f3a(1006, "5sWB")](this[_0x208f3a(682, "zWcY")][_0x208f3a(1294, "$yy6")])
       });
     }
-    console[_0x208f3a(1001, "u4Vf")]("[Turn] 当前任务已完成");
+    console[_0x208f3a(1001, "u4Vf")]("[Turn] \u5F53\u524D\u4EFB\u52A1\u5DF2\u5B8C\u6210");
   }
   getTeam(_0x39e5fe) {
     const _0x5a8999 = _0x44ca4b;
@@ -1494,7 +1497,7 @@ export class Template extends Common {
         });
       } else {
         if (_0x51e298.Uinlv(_0x4c389a, _0x51e298[_0x261990(576, "TNSK")])) {
-          console[_0x261990(1520, "$A[&")]("[Model] 当前运行模式: User");
+          console[_0x261990(1520, "$A[&")]("[Model] \u5F53\u524D\u8FD0\u884C\u6A21\u5F0F: User");
           let _0x53446f = [];
           let _0x2baae6 = [];
           for (let _0x63ccc9 of this[_0x261990(1781, "$A[&")]) {
@@ -1619,7 +1622,7 @@ export class Template extends Common {
       const _0x141823 = Promise.resolve()[_0x544a25(1453, "RoG@")](() => {
         const _0x512f35 = _0x544a25;
         if (_0xc69d90[_0x512f35(485, "[KiJ")].finish) {
-          !_0xc69d90[_0x512f35(541, "a55%")][_0x512f35(1598, "^370")] && (console[_0x512f35(1572, "oT9]")](_0x512f35(1557, "^370") + _0xc69d90[_0x512f35(526, "SEn1")][_0x512f35(1465, "*Gc&")] + " Context已完成,切换中"), _0xc69d90.context._send = true);
+          !_0xc69d90[_0x512f35(541, "a55%")][_0x512f35(1598, "^370")] && (console[_0x512f35(1572, "oT9]")](_0x512f35(1557, "^370") + _0xc69d90[_0x512f35(526, "SEn1")][_0x512f35(1465, "*Gc&")] + " Context\u5DF2\u5B8C\u6210,\u5207\u6362\u4E2D"), _0xc69d90.context._send = true);
         } else {
           return this[_0x512f35(1544, "GBen")](_0xc69d90);
         }
@@ -1740,7 +1743,7 @@ export class Template extends Common {
     }
     if (_0x443ddd.context[_0x39cb16(905, "yK63")]) {
       let _0x2317d0 = _0x55667f[_0x39cb16(1124, "RoG@")](isNaN, _0x443ddd.context[_0x39cb16(2151, "u4Vf")]) ? _0x55667f.fETcb(new Date(_0x443ddd[_0x39cb16(1238, "(ytF")][_0x39cb16(1441, "1Nka")])[_0x39cb16(1165, "TNSK")](), 1000) : parseInt(_0x443ddd[_0x39cb16(1553, "RoG@")][_0x39cb16(2029, "]itw")]);
-      _0x55667f.fETcb(new Date()[_0x39cb16(1157, "yK63")](), 1000) < _0x2317d0 && (console.log("[Info] 活动还没开始 " + _0x443ddd[_0x39cb16(1460, "@gRB")].pid), _0x443ddd.context.finish = true);
+      _0x55667f.fETcb(new Date()[_0x39cb16(1157, "yK63")](), 1000) < _0x2317d0 && (console.log("[Info] \u6D3B\u52A8\u8FD8\u6CA1\u5F00\u59CB " + _0x443ddd[_0x39cb16(1460, "@gRB")].pid), _0x443ddd.context.finish = true);
     }
     this[_0x39cb16(2022, "^370")] = new Date()[_0x39cb16(1694, "WCHt")]();
     let _0x425667 = _0x443ddd[_0x39cb16(1381, "v4(B")].user;
@@ -1753,7 +1756,7 @@ export class Template extends Common {
     if (_0x51aa5d.includes(_0x425667)) {
       return;
     }
-    this.#expireUser && this.#expireUser[_0x39cb16(1078, "T3i!")](_0x443ddd[_0x39cb16(1381, "v4(B")].user) && !this[_0x39cb16(2103, "t*Or")].validCookie && _0x55667f[_0x39cb16(2012, "d3Fv")](await this[_0x39cb16(503, "oT9]")](_0x443ddd[_0x39cb16(1955, "*Gc&")][_0x39cb16(1499, "V!JN")]), this.#expireUser[_0x443ddd[_0x39cb16(1333, "Z^Uz")].user]) && (console[_0x39cb16(2133, "R#qp")](_0x39cb16(979, "5sWB") + _0x443ddd.data[_0x39cb16(1430, "oT9]")] + " 过期"), _0x443ddd[_0x39cb16(2119, "oT9]")][_0x39cb16(787, "b!#L")] = true);
+    this.#expireUser && this.#expireUser[_0x39cb16(1078, "T3i!")](_0x443ddd[_0x39cb16(1381, "v4(B")].user) && !this[_0x39cb16(2103, "t*Or")].validCookie && _0x55667f[_0x39cb16(2012, "d3Fv")](await this[_0x39cb16(503, "oT9]")](_0x443ddd[_0x39cb16(1955, "*Gc&")][_0x39cb16(1499, "V!JN")]), this.#expireUser[_0x443ddd[_0x39cb16(1333, "Z^Uz")].user]) && (console[_0x39cb16(2133, "R#qp")](_0x39cb16(979, "5sWB") + _0x443ddd.data[_0x39cb16(1430, "oT9]")] + " \u8FC7\u671F"), _0x443ddd[_0x39cb16(2119, "oT9]")][_0x39cb16(787, "b!#L")] = true);
     this._temp[_0x39cb16(982, "UTbv")][_0x443ddd.context.pid] = this._temp[_0x39cb16(1658, "HL#@")][_0x443ddd[_0x39cb16(1527, "QNJ@")][_0x39cb16(1390, "RhRp")]] || [];
     !_0x443ddd[_0x39cb16(1255, "1Nka")].count && (_0x443ddd[_0x39cb16(1110, "$yy6")][_0x39cb16(871, "$yy6")] = 0);
     !_0x443ddd[_0x39cb16(640, "HL#@")][_0x39cb16(711, "SEn1")] && (_0x443ddd[_0x39cb16(897, "#YUf")][_0x39cb16(1595, "@gRB")] = 0);
@@ -1765,14 +1768,14 @@ export class Template extends Common {
       console[_0x39cb16(973, "!^IA")](_0x39cb16(529, "T3i!"));
       !this._contextStatus.includes(_0x443ddd.context[_0x39cb16(1978, "t*Or")]) && (this[_0x39cb16(2069, "@gRB")] = [], this[_0x39cb16(2045, "[KiJ")][_0x39cb16(934, "@gRB")](_0x443ddd[_0x39cb16(985, "^370")][_0x39cb16(1994, "77F6")]));
     } else {
-      this[_0x39cb16(1529, "$yy6")].includes(_0x443ddd[_0x39cb16(1845, "D7yz")][_0x39cb16(1546, "QNJ@")]) && (_0x443ddd.context.finish = true, console[_0x39cb16(1891, "zWcY")]("[Category] Status 403超出限制,跳过本轮运行"));
+      this[_0x39cb16(1529, "$yy6")].includes(_0x443ddd[_0x39cb16(1845, "D7yz")][_0x39cb16(1546, "QNJ@")]) && (_0x443ddd.context.finish = true, console[_0x39cb16(1891, "zWcY")]("[Category] Status 403\u8D85\u51FA\u9650\u5236,\u8DF3\u8FC7\u672C\u8F6E\u8FD0\u884C"));
     }
     if (_0x55667f[_0x39cb16(943, "!^IA")](this[_0x39cb16(479, "1y*w")][_0x39cb16(1313, "Z^Uz")], _0xc22dc4)) {
       _0x443ddd[_0x39cb16(924, "1y*w")][_0x39cb16(791, "RhRp")] = true;
       console.log(_0x39cb16(722, "!^IA"));
       !this[_0x39cb16(717, "1q[P")][_0x39cb16(922, "5&TU")](_0x443ddd[_0x39cb16(541, "a55%")][_0x39cb16(1036, "1Nka")]) && (this[_0x39cb16(480, "#42#")] = [], this._contextVerify[_0x39cb16(1483, "D7yz")](_0x443ddd[_0x39cb16(822, "qac9")][_0x39cb16(1379, "rGuV")]));
     } else {
-      this._contextVerify.includes(_0x443ddd.context[_0x39cb16(1729, "[KiJ")]) && (_0x443ddd[_0x39cb16(1460, "@gRB")][_0x39cb16(843, "u4Vf")] = true, console[_0x39cb16(1156, "V!JN")]("[Category] Code不匹配超出限制,跳过本轮运行"));
+      this._contextVerify.includes(_0x443ddd.context[_0x39cb16(1729, "[KiJ")]) && (_0x443ddd[_0x39cb16(1460, "@gRB")][_0x39cb16(843, "u4Vf")] = true, console[_0x39cb16(1156, "V!JN")]("[Category] Code\u4E0D\u5339\u914D\u8D85\u51FA\u9650\u5236,\u8DF3\u8FC7\u672C\u8F6E\u8FD0\u884C"));
     }
     if (!_0x443ddd[_0x39cb16(584, "b!#L")][_0x39cb16(1041, "#42#")] && !_0x443ddd[_0x39cb16(1130, "77F6")].retry) {
       if (this[_0x39cb16(1488, "#42#")][_0x39cb16(971, "R#qp")][_0x39cb16(2076, "*kgL")](_0x443ddd[_0x39cb16(1659, "TNSK")].pid)) {
@@ -1793,13 +1796,13 @@ export class Template extends Common {
         _0x443ddd[_0x39cb16(640, "HL#@")][_0x39cb16(587, "RoG@")] = _0x55667f.MLJgg(_0x443ddd[_0x39cb16(1020, "D7yz")].count, _0x443ddd.info.times) ? true : false;
         _0x21b2af = _0x39cb16(1937, "oT9]");
       } else {
-        _0x443ddd.context[_0x39cb16(1754, "#YUf")] && (_0x443ddd[_0x39cb16(2047, "1y*w")][_0x39cb16(1185, "T3i!")] = _0x55667f.MLJgg(_0x443ddd.info[_0x39cb16(2117, "R#qp")], _0x443ddd[_0x39cb16(1821, "*kgL")][_0x39cb16(1414, "HL#@")]) ? true : false, _0x21b2af = "助力Limit");
+        _0x443ddd.context[_0x39cb16(1754, "#YUf")] && (_0x443ddd[_0x39cb16(2047, "1y*w")][_0x39cb16(1185, "T3i!")] = _0x55667f.MLJgg(_0x443ddd.info[_0x39cb16(2117, "R#qp")], _0x443ddd[_0x39cb16(1821, "*kgL")][_0x39cb16(1414, "HL#@")]) ? true : false, _0x21b2af = "\u52A9\u529BLimit");
       }
     }
     if (_0x443ddd[_0x39cb16(1600, "!^IA")][_0x39cb16(1640, "D7yz")]) {
       if (this.#contextStorage[_0x443ddd[_0x39cb16(1080, "GBen")].pid] && !this.#contextStorage[_0x443ddd.context[_0x39cb16(1828, "@gRB")]]._send) {
         this.#contextStorage[_0x443ddd[_0x39cb16(1287, "#42#")][_0x39cb16(1112, "3Z$7")]]._send = true;
-        console[_0x39cb16(1520, "$A[&")]("[Context] " + _0x443ddd.context.pid + " Context已完成 ");
+        console[_0x39cb16(1520, "$A[&")]("[Context] " + _0x443ddd.context.pid + " Context\u5DF2\u5B8C\u6210 ");
         if (_0x443ddd.context[_0x39cb16(1201, "!Qgx")] && !_0x443ddd[_0x39cb16(971, "R#qp")].lock) {
           _0x443ddd[_0x39cb16(1445, "zWcY")][_0x39cb16(2071, "^370")] = true;
           try {
@@ -1819,13 +1822,13 @@ export class Template extends Common {
         !_0x443ddd.info[_0x39cb16(1067, "1y*w") + this[_0x39cb16(2142, "SEn1")]] && (console[_0x39cb16(1664, "b!#L")](_0x39cb16(1317, "QNJ@") + _0x425667 + _0x39cb16(1852, "WCHt") + _0x21b2af), _0x443ddd[_0x39cb16(857, "5sWB")][_0x39cb16(1810, "1q[P") + this[_0x39cb16(1361, "*Gc&")]] = true);
       } else {
         if (_0x443ddd[_0x39cb16(1540, "qac9")][_0x39cb16(1765, "5&TU")] && !_0x4c1d6c) {
-          !_0x443ddd[_0x39cb16(933, "[KiJ")][_0x39cb16(1158, "RoG@") + this[_0x39cb16(1361, "*Gc&")] + _0x39cb16(1260, "[KiJ")] && (console.log("[Finsish] 账户: " + _0x425667 + " 已完成任务, 来源: " + _0x21b2af), _0x443ddd[_0x39cb16(1147, "UTbv")][_0x39cb16(1766, "V!JN") + this[_0x39cb16(506, "t*Or")] + _0x39cb16(621, "d3Fv")] = true);
+          !_0x443ddd[_0x39cb16(933, "[KiJ")][_0x39cb16(1158, "RoG@") + this[_0x39cb16(1361, "*Gc&")] + _0x39cb16(1260, "[KiJ")] && (console.log("[Finsish] \u8D26\u6237: " + _0x425667 + " \u5DF2\u5B8C\u6210\u4EFB\u52A1, \u6765\u6E90: " + _0x21b2af), _0x443ddd[_0x39cb16(1147, "UTbv")][_0x39cb16(1766, "V!JN") + this[_0x39cb16(506, "t*Or")] + _0x39cb16(621, "d3Fv")] = true);
         } else {
           if (this._temp.work[_0x443ddd.context[_0x39cb16(1875, "1q[P")]][_0x39cb16(1059, "!^IA")](_0x425667) && !_0x443ddd.context[_0x39cb16(1261, "oT9]")]) {
             console.log(_0x39cb16(1768, "(ytF") + _0x425667 + _0x39cb16(2147, "QNJ@") + _0x443ddd[_0x39cb16(2135, "d3Fv")][_0x39cb16(1045, "]itw")]);
           } else {
             if (_0x443ddd.info[_0x39cb16(2018, "rGuV")]) {
-              console.log("[Jump] 账户: " + _0x425667 + _0x39cb16(1593, "d3Fv"));
+              console.log("[Jump] \u8D26\u6237: " + _0x425667 + _0x39cb16(1593, "d3Fv"));
             } else {
               let _0xdc2537 = this.context[_0x39cb16(1951, "]itw")];
               _0x443ddd[_0x39cb16(1155, "$yy6")][_0x39cb16(1706, "qac9")] = true;
@@ -1848,7 +1851,7 @@ export class Template extends Common {
               } else {
                 _0x443ddd[_0x39cb16(1105, "*Gc&")][_0x39cb16(1102, "qac9")] && (this[_0x39cb16(546, "@gRB")][_0x39cb16(1482, "#YUf")][_0x443ddd[_0x39cb16(925, "HL#@")].category][_0x39cb16(1422, "d3Fv")](_0x443ddd[_0x39cb16(1683, "$yy6")][_0x39cb16(2123, "77F6")]), _0x443ddd.info[_0x39cb16(1582, "3Z$7")] = false, console[_0x39cb16(1566, "v4(B")](_0x39cb16(1740, "T3i!") + _0x425667 + _0x39cb16(1159, "RhRp")));
               }
-              (_0x443ddd[_0x39cb16(585, "Z^Uz")].count > _0x1bfadb || _0x443ddd[_0x39cb16(910, "]itw")][_0x39cb16(1969, "R#qp")]) && (console[_0x39cb16(1205, "qac9")](_0x39cb16(927, "u4Vf") + _0x425667 + " Work写入缓存"), this._temp[_0x39cb16(813, "!^IA")][_0x443ddd[_0x39cb16(837, "Z^Uz")][_0x39cb16(1021, "UTbv")]][_0x39cb16(1016, "77F6")](_0x425667), _0x443ddd[_0x39cb16(1302, "c0FF")].work = false);
+              (_0x443ddd[_0x39cb16(585, "Z^Uz")].count > _0x1bfadb || _0x443ddd[_0x39cb16(910, "]itw")][_0x39cb16(1969, "R#qp")]) && (console[_0x39cb16(1205, "qac9")](_0x39cb16(927, "u4Vf") + _0x425667 + " Work\u5199\u5165\u7F13\u5B58"), this._temp[_0x39cb16(813, "!^IA")][_0x443ddd[_0x39cb16(837, "Z^Uz")][_0x39cb16(1021, "UTbv")]][_0x39cb16(1016, "77F6")](_0x425667), _0x443ddd[_0x39cb16(1302, "c0FF")].work = false);
               _0x55667f[_0x39cb16(2126, "!Qgx")](_0x55667f.IqgOt(parseInt, this.profile.thread || 0), 2) && !this.jump && console.log(_0x55667f[_0x39cb16(1343, "a55%")]);
             }
           }
@@ -2115,7 +2118,7 @@ export class Template extends Common {
     if (!_0x531af7.info[_0x2bc2a7(1901, "rGuV")] && _0x324ce9[_0x2bc2a7(1455, "$yy6")](parseInt, this.profile.thread || 0) < 2) {
       console[_0x2bc2a7(788, "9^WW")](_0x2bc2a7(1084, "rGuV") + _0x324ce9.rsPbe(_0x531af7[_0x2bc2a7(1250, "#YUf")][_0x2bc2a7(785, "1Nka")].index, 1) + ": " + _0x531af7.info[_0x2bc2a7(1516, "t*Or")] + _0x2bc2a7(664, "d3Fv"));
       let _0x3773bc = _0x531af7[_0x2bc2a7(1248, "(ytF")].proxy || this[_0x2bc2a7(2054, "!^IA")][_0x2bc2a7(2073, "WCHt")];
-      _0x531af7.context.user ? _0x3773bc ? console[_0x2bc2a7(1344, "77F6")](_0x2bc2a7(1624, "t*Or") + _0x531af7[_0x2bc2a7(952, "rGuV")].user + _0x2bc2a7(670, "9^WW") + (_0x531af7[_0x2bc2a7(1140, "WCHt")].ppid || _0x531af7[_0x2bc2a7(885, "T3i!")][_0x2bc2a7(1373, "VLyu")]) + _0x2bc2a7(609, "c0FF") + _0x531af7[_0x2bc2a7(1136, "5sWB")].user + _0x2bc2a7(889, "*Gc&") + _0x3773bc) : console[_0x2bc2a7(788, "9^WW")]("[Run] 运行账户: " + _0x531af7.data[_0x2bc2a7(1311, "RhRp")] + _0x2bc2a7(2052, "!^IA") + (_0x531af7[_0x2bc2a7(1460, "@gRB")][_0x2bc2a7(1395, "SEn1")] || _0x531af7[_0x2bc2a7(1607, "#]F[")][_0x2bc2a7(1224, "c0FF")]) + _0x2bc2a7(892, "*Gc&") + _0x531af7[_0x2bc2a7(1753, "t*Or")][_0x2bc2a7(2087, "(ytF")]) : _0x3773bc ? console[_0x2bc2a7(814, "c0FF")](_0x2bc2a7(758, "]itw") + _0x531af7[_0x2bc2a7(545, "WCHt")].user + _0x2bc2a7(1610, "5&TU") + (_0x531af7[_0x2bc2a7(1659, "TNSK")][_0x2bc2a7(1700, "]itw")] || _0x531af7[_0x2bc2a7(1110, "$yy6")][_0x2bc2a7(1828, "@gRB")]) + _0x2bc2a7(853, "HL#@") + _0x3773bc) : console[_0x2bc2a7(709, "*Gc&")]("[Run] 运行账户: " + _0x531af7[_0x2bc2a7(1741, "!^IA")].user + _0x2bc2a7(1610, "5&TU") + (_0x531af7[_0x2bc2a7(1753, "t*Or")][_0x2bc2a7(1775, "u4Vf")] || _0x531af7[_0x2bc2a7(1553, "RoG@")].pid));
+      _0x531af7.context.user ? _0x3773bc ? console[_0x2bc2a7(1344, "77F6")](_0x2bc2a7(1624, "t*Or") + _0x531af7[_0x2bc2a7(952, "rGuV")].user + _0x2bc2a7(670, "9^WW") + (_0x531af7[_0x2bc2a7(1140, "WCHt")].ppid || _0x531af7[_0x2bc2a7(885, "T3i!")][_0x2bc2a7(1373, "VLyu")]) + _0x2bc2a7(609, "c0FF") + _0x531af7[_0x2bc2a7(1136, "5sWB")].user + _0x2bc2a7(889, "*Gc&") + _0x3773bc) : console[_0x2bc2a7(788, "9^WW")]("[Run] \u8FD0\u884C\u8D26\u6237: " + _0x531af7.data[_0x2bc2a7(1311, "RhRp")] + _0x2bc2a7(2052, "!^IA") + (_0x531af7[_0x2bc2a7(1460, "@gRB")][_0x2bc2a7(1395, "SEn1")] || _0x531af7[_0x2bc2a7(1607, "#]F[")][_0x2bc2a7(1224, "c0FF")]) + _0x2bc2a7(892, "*Gc&") + _0x531af7[_0x2bc2a7(1753, "t*Or")][_0x2bc2a7(2087, "(ytF")]) : _0x3773bc ? console[_0x2bc2a7(814, "c0FF")](_0x2bc2a7(758, "]itw") + _0x531af7[_0x2bc2a7(545, "WCHt")].user + _0x2bc2a7(1610, "5&TU") + (_0x531af7[_0x2bc2a7(1659, "TNSK")][_0x2bc2a7(1700, "]itw")] || _0x531af7[_0x2bc2a7(1110, "$yy6")][_0x2bc2a7(1828, "@gRB")]) + _0x2bc2a7(853, "HL#@") + _0x3773bc) : console[_0x2bc2a7(709, "*Gc&")]("[Run] \u8FD0\u884C\u8D26\u6237: " + _0x531af7[_0x2bc2a7(1741, "!^IA")].user + _0x2bc2a7(1610, "5&TU") + (_0x531af7[_0x2bc2a7(1753, "t*Or")][_0x2bc2a7(1775, "u4Vf")] || _0x531af7[_0x2bc2a7(1553, "RoG@")].pid));
     }
     _0x324ce9.GzNkR(this.profile[_0x2bc2a7(805, "^370")], _0x324ce9.lFcnm) && !_0x531af7[_0x2bc2a7(1986, "v4(B")][_0x2bc2a7(974, "5&TU")] && (_0x531af7[_0x2bc2a7(1756, "QNJ@")].line = true);
     _0x531af7.context[_0x2bc2a7(887, "$yy6")] && console.log("[Assist]", _0x531af7[_0x2bc2a7(526, "SEn1")][_0x2bc2a7(690, "qac9")]);
@@ -2675,7 +2678,7 @@ export class Template extends Common {
         [_0x314f86, _0x5241ac, _0x5068b9, _0xa384e8] = _0x47e5bf;
         let _0x1d0dd8 = _0x53fc9f[_0x1c3678(1749, "D7yz")](new Date(new Date()[_0x1c3678(803, "9^WW")](_0x314f86, _0x5241ac, _0x5068b9, _0xa384e8)), _0x3e27ab);
         if (_0x53fc9f[_0x1c3678(772, "WCHt")](0, _0x1d0dd8) && _0x1d0dd8 < _0x482fde * 1000) {
-          console[_0x1c3678(1520, "$A[&")]("[Timer] 定时器:", _0x1d0dd8 / 1000);
+          console[_0x1c3678(1520, "$A[&")]("[Timer] \u5B9A\u65F6\u5668:", _0x1d0dd8 / 1000);
           let _0x40162a = this[_0x1c3678(1182, "3Z$7")][_0x1c3678(665, "V!JN")][_0x1c3678(1398, "$A[&")] ? _0x53fc9f[_0x1c3678(990, "RoG@")](parseFloat, this.config[_0x1c3678(1838, "t*Or")][_0x1c3678(1715, "^370")]) : 0;
           this[_0x1c3678(1338, "5sWB")][_0x1c3678(695, "v4(B")][_0x1c3678(2027, "[KiJ")] && console[_0x1c3678(973, "!^IA")](_0x53fc9f.HtzYj(_0x53fc9f[_0x1c3678(1851, "#42#")](parseInt, this[_0x1c3678(1724, "UTbv")][_0x1c3678(1647, "!^IA")].wait), 0) ? _0x1c3678(1895, "#YUf") + this.config[_0x1c3678(565, "qac9")][_0x1c3678(1534, "GBen")] + _0x1c3678(1402, "^370") : _0x1c3678(2053, "*Gc&") + this[_0x1c3678(1493, "@gRB")].timer[_0x1c3678(1089, "d3Fv")] + _0x1c3678(1364, "v4(B"));
           await this[_0x1c3678(2027, "[KiJ")](_0x53fc9f[_0x1c3678(1066, "*Gc&")](_0x53fc9f[_0x1c3678(1705, "77F6")](parseInt, _0x1d0dd8), _0x40162a));
