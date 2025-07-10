@@ -1,4 +1,4 @@
-//Thu Jul 10 2025 03:53:37 GMT+0000 (Coordinated Universal Time)
+//Thu Jul 10 2025 03:57:03 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
 /*
@@ -7,8 +7,6 @@ q必达 优惠寄快递的
 复制微信打开 
 优惠代寄，上门取件，代理火热招募中…
 weixin://dl/business/?t=WrAqJDOw2pg
-
-邀请码:D66UAI
 
 搞积分换快递钱,1000=1元,只能用于寄快递付费.可以说没啥搞
 
